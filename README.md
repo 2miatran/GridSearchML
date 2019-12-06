@@ -14,11 +14,11 @@ You can also print out confuse for the best models.
 - Optional: cv (default is 3), scoring, print_confuse
 
 #### Returns:
-bestgridsearch: storing the best gridsearch model for each ML algorithm in the dictionary. For ex. You can access model by bestgridsearch['Logistic Regression'] and then make a prediction on new dataset.
-gridsearchresult: storing the .cv_results_ for each ML algorithm in the dictionary
-summary_table: as in picture
-model_list: a dictionary of {model:coef} for accessing importance features. Currently, I am only doing this for Random Forest and Gradient Boosting
-pred_values: prediction results for the test set for each best model. You can access this for further exploration/evaluation. 
+- bestgridsearch: storing the best gridsearch model for each ML algorithm in the dictionary. For ex. You can access model by bestgridsearch['Logistic Regression'] and then make a prediction on new dataset.
+- gridsearchresult: storing the .cv_results_ for each ML algorithm in the dictionary
+- summary_table: as in picture
+- model_list: a dictionary of {model:coef} for accessing importance features. Currently, I am only doing this for Random Forest and Gradient Boosting
+- pred_values: prediction results for the test set for each best model. You can access this for further exploration/evaluation. 
 ![GridSearch](https://github.com/2miatran/GridSearchML/blob/master/GridSearchResults.jpg)
 
 ## Accessing results from model_tuning.
