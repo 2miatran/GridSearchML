@@ -6,7 +6,7 @@ Plotting data in 2D and 3D. Input your dataframe, with options to remove/ignore 
 ![T-SNE 2D and 3D](https://github.com/2miatran/GridSearchML/blob/master/t-sne%202D%20and%203D.jpg)
 
 ## GridSearch outputing best train, test score and model parameters for each algorithm in the hyperparameter dictionary
-The model_tuning in GridSearchML allow you to import a dictionary. I have 2 standard gridsearch for classification and regression problems for you to modify as you wish in <p style='color:red'>hyperparameter.py</p>.
+The model_tuning in GridSearchML allow you to import a dictionary. I have 2 standard gridsearch for classification and regression problems for you to modify as you wish in *hyperparameter.py.
 For each combination of parameters, model_tuning will do cross-validation with cv folds, using the scoring criteria from scoring parameter.
 You can also print out confuse for the best models. 
 
