@@ -9,7 +9,7 @@ Plotting data in 2D and 3D. Input your dataframe, with options to remove/ignore 
 The model_tuning in GridSearchML allow you to import a dictionary. I have 2 standard gridsearch for classification and regression problems for you to modify as you wish in hyperparameter.py.
 For each combination of parameters, model_tuning will do cross-validation with cv folds, using the scoring criteria from scoring parameter.
 You can also print out confuse for the best models. 
-![Dictionary of Hyperparameter](https://github.com/2miatran/GridSearchML/blob/master/Dictionary%20of%20Hyperparameter.jpg =250x250)) 
+![Dictionary of Hyperparameter](https://github.com/2miatran/GridSearchML/blob/master/Dictionary%20of%20Hyperparameter.jpg =250x250) 
 #### Parameters:
 - dictionary_of_hyperparameter, X_train, y_train, X_test, y_test
 - Optional: cv (default is 3), scoring, print_confuse
