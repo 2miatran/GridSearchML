@@ -27,3 +27,4 @@ You can also print out confuse for the best models.
 ## Accessing results from model_tuning.
 For example, we can use results from model_list, which contains {model:coef}, to plot important features. 
 ![Image description](https://github.com/2miatran/GridSearchML/blob/master/plot_feature_importance.jpg)
+
