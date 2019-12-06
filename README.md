@@ -28,3 +28,5 @@ You can also print out confuse for the best models.
 For example, we can use results from model_list, which contains {model:coef}, to plot important features. 
 ![Image description](https://github.com/2miatran/GridSearchML/blob/master/plot_feature_importance.jpg)
 
+Another example, we can access and utilize the best model on gridsearch to make prediction on new data. This example shows the confusion matrix, using best model for the 'Decision Tree' algorithm to predict and evaluate on new holdouttest data. 
+![](https://github.com/2miatran/GridSearchML/blob/master/confusion%20matric%20using%20best%20model%20from%20gridsearch%20on%20new%20data.jpg)
